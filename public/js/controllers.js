@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', [ 'wantedItem', 'navigation', 'carousel', 'threePanel', 'testemonials', 'footer', 'whatsNew', 'newsletter', 'headline', 'header', 'contactForm', 'map' ])
+angular.module('myApp.controllers', [ 'wantedItem', 'navigation', 'carousel', 'threePanel', 'testemonials', 'footer', 'whatsNew', 'newsletter', 'headline', 'header', 'contactForm'])
       .controller('AboutCtrl', [ '$routeParams', '$scope', '$http', function($routeParams, $scope, $http) {
 
 } ])
