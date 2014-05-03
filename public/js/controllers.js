@@ -10,4 +10,8 @@ angular.module('myApp.controllers', [ 'wantedItem', 'navigation', 'carousel', 't
 .controller('ContactCtrl', [ '$routeParams', '$scope', '$http', function($routeParams, $scope, $http) {
 
 } ])
+
+.controller('DevelopmentCtrl', [ '$routeParams', '$scope', '$http', function($routeParams, $scope, $http) {
+
+} ])
 ;
