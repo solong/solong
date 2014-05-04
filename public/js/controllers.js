@@ -14,4 +14,7 @@ angular.module('myApp.controllers', [ 'wantedItem', 'navigation', 'carousel', 't
 .controller('DevelopmentCtrl', [ '$routeParams', '$scope', '$http', function($routeParams, $scope, $http) {
 
 } ])
-;
+
+.controller('DownloadsCtrl', [ '$routeParams', '$scope', '$http', function($routeParams, $scope, $http) {
+
+} ]);

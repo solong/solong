@@ -4631,15 +4631,29 @@ a.thumbnail.active {
 }
 a.list-group-item {
   color: #555;
+  
+   -webkit-transition-duration: 0.4s;
+   -moz-transition-duration: 0.4s;
+   -o-transition-duration: 0.4s;
+   transition-duration: 0.4s;
 }
 a.list-group-item .list-group-item-heading {
   color: #333;
 }
+
 a.list-group-item:hover,
 a.list-group-item:focus {
+  color:#fff;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #343434;
 }
+
+a.list-group-item:hover .list-group-item-heading,
+a.list-group-item:focus .list-group-item-heading {
+  color:#fff;
+  text-decoration: none;
+}
+
 a.list-group-item.active,
 a.list-group-item.active:hover,
 a.list-group-item.active:focus {
