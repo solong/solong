@@ -15,6 +15,7 @@ config(['$routeProvider','$locationProvider', function($routeProvider, $location
   $routeProvider.when('/contact', {templateUrl: '/assets/partials/contact.html', controller: 'ContactCtrl'});
   $routeProvider.when('/development', {templateUrl: '/assets/partials/development.html', controller: 'DevelopmentCtrl'});
   $routeProvider.when('/downloads', {templateUrl: '/assets/partials/downloads.html', controller: 'DownloadsCtrl'});
+  $routeProvider.when('/privacy', {templateUrl: '/assets/partials/privacy.html', controller: 'PrivacyCtrl'});
   //repeat this line as many times as necessary $routeProvider.when('/sync', {templateUrl: '/assets/partials/sync.html', controller: 'SyncCtrl'});
   //$routeProvider.when('/openIDCallback', {templateUrl: '/assets/partials/partial2.html', controller: 'MyCtrl3'});
   $routeProvider.otherwise({redirectTo: '/'});
